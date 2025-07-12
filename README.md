@@ -30,12 +30,6 @@ Focus only on type modeling and runtime validation, not actual delivery of notif
 
     (Or use `npx ts-node src/index.ts` after install)
 
-3. **Implement Solution**
-
-    - Complete the type guards and runtime validation logic as required in `src/index.ts`.
-    - Ensure runtime validation strictly follows schema and feature flag logic for v1/v2 and all notification methods.
-    - Validate the given sample payloads, logging the results.
-
 4. **How to Verify**
 
     - After implementation, running `./run.sh` should validate all sample payloads, showing correct pass/fail status and errors.
